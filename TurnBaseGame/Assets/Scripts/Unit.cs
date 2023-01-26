@@ -4,25 +4,35 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
+
+    [SerializeField] Animator unitAnimator;
     Vector3 targetPosition;
-    // Update is called once per frame
+
+    private void Awake()
+    {
+        targetPosition = transform.position;
+    }
     void Update()
     {
         float stoppinfDistance = .1f;
         if(Vector3.Distance(transform.position, targetPosition) > stoppinfDistance)
         {
             Vector3 moveDirection = (targetPosition - transform.position).normalized;
-            transform.position += moveDirection * Time.deltaTime * 4f;
+            float moveSpeed = 4f;
+            transform.position += moveDirection * Time.deltaTime * moveSpeed;
+
+            float rotationSpeed = 10f;
+            transform.forward = Vector3.Lerp(transform.forward, moveDirection, Time.deltaTime * rotationSpeed);
+
+            unitAnimator.SetBool("IsWalking", true);
         }
-
-
-        if(Input.GetKeyDown(KeyCode.T))
+        else
         {
-            Move(new Vector3(4, 0, 4));
+            unitAnimator.SetBool("IsWalking", false);
         }
     }
 
-    void Move(Vector3 targetPosition)
+    public void Move(Vector3 targetPosition)
     {
         this.targetPosition = targetPosition;
     }
