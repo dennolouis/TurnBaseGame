@@ -709,7 +709,7 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: -264.5}
+      snapOffset: {x: 0, y: -275}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 2
       id: AINavigationOverlay
@@ -766,9 +766,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -805.64825, y: 101.51413, z: -0.031242847}
+    m_Target: {x: 376.20923, y: 210.69157, z: -0.019470219}
     speed: 2
-    m_Value: {x: -805.64825, y: 101.51413, z: -0.031242847}
+    m_Value: {x: 376.20923, y: 210.69157, z: -0.019470219}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -818,9 +818,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1412.1725
+    m_Target: 433.90802
     speed: 2
-    m_Value: 1412.1725
+    m_Value: 433.90802
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -838,7 +838,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.11520015, y: 0.1754513, z: -0.02067687, w: -0.97751033}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -916,9 +916,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 826c0000
-      m_LastClickedID: 27778
-      m_ExpandedIDs: 0cfbffff826c0000c66c0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0838ffff0cfbffff826c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -989,23 +989,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/UI
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/UI
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/dennolouis/Documents/UnityProjects/TurnBaseGame/TurnBaseGame/TurnBaseGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 47.5}
-    m_SelectedIDs: 8e720000
-    m_LastClickedID: 29326
-    m_ExpandedIDs: 00000000587200005a7200005c7200008672000000ca9a3b
+    scrollPos: {x: 0, y: 139.5}
+    m_SelectedIDs: 84720000
+    m_LastClickedID: 29316
+    m_ExpandedIDs: 000000005a7200005c7200005e7200007e7200008472000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1033,7 +1033,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000587200005a7200005c720000
+    m_ExpandedIDs: 000000005a7200005c7200005e720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1159,7 +1159,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 27778
+  m_LastSelectedObjectID: -50540
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
